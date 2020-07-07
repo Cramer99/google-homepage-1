@@ -1,15 +1,22 @@
-#viewscreen {
+#container {
     background-color: red;
+    width: 600px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-#top-tab {
-
+#header {
+    margin: 0px 50px 0px 50px;
+    background-color: blue;
 }
 
-#search-form {
-
+#content {
+    margin: 0px 100px 0 100px;
+    background-color: yellow;
 }
 
-#bottom-tab {
-
+#footer {
+    margin: 0px 75px 0px 75px;
+    background-color: black;
 }
