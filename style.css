@@ -1,10 +1,14 @@
 body {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 #container {
-    background-color: red;
     width: 100%;
     height: 100%;
     display: flex;
@@ -14,21 +18,12 @@ body {
     align-items: center;
 }
 
-#header {
-    background-color: blue;
-}
-
 #content {
     margin: 0px 100px 0 100px;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#footer {
-    background-color: green;
 }
 
 .fixedHeader, .fixedFooter {
@@ -45,4 +40,6 @@ body {
 
 .fixedFooter {
     bottom: 0;
+    background: #f2f2f2;
+    border: solid 1px #e4e4e4;
 }
