@@ -1,15 +1,17 @@
 body {
-    width: 100%;
-    min-height: 100%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
 }
 
 #container {
     background-color: red;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #header {
@@ -30,7 +32,7 @@ body {
 }
 
 .fixedHeader, .fixedFooter {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     margin: 0;
     display: flex;
