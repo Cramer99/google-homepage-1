@@ -32,7 +32,7 @@ button {
 }
 
 #content {
-    margin: 0px 100px 300px 100px;
+    margin: 0px 100px 350px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,8 +52,8 @@ button {
     box-sizing: border-box;
 }
 
-#googleLogo {
-    size: 0.5em;
+#logo {
+    padding: 20px 0px;
 }
 
 #searchField {
@@ -64,6 +64,10 @@ button {
     border-bottom-right-radius: 20px;
     height: 2.5em;
     width: 40em;
+}
+
+#searchField:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.19);
 }
 
 #fixedFooter {
@@ -84,6 +88,7 @@ button {
     height: 1.5em;
     left:10px;
     top: 10px;
+    color: dfe1e5;
 }
 
 #searchbox #mic{
