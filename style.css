@@ -16,6 +16,10 @@ a:hover {
     text-decoration: underline;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 button {
     cursor: pointer;
     border: none;
