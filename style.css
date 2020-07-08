@@ -19,6 +19,7 @@ a:hover {
 button {
     cursor: pointer;
     margin: 20px 4px;
+    padding: 5px 10px;
 }
 
 #container {
