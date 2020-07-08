@@ -16,7 +16,7 @@ a:hover {
     text-decoration: underline;
 }
 
-img:hover {
+.linkImage:hover {
     cursor: pointer;
 }
 
